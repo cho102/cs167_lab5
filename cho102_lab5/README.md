@@ -10,9 +10,9 @@
 ## Answers
 
 * (Q1) Do you think it will use your local cluster? Why or why not?
-
+</br>No, it will not.
 * (Q2) Does the application use the cluster that you started? How did you find out?
-
+</br>Yes. When I refresh the master web interface, it shows a completed application for CS167-Lab5.
 * (Q3) What is the Spark master printed on the standard output on IntelliJ IDEA?
 
 * (Q4) What is the Spark master printed on the standard output on the terminal?
