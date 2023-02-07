@@ -14,9 +14,9 @@
 * (Q2) Does the application use the cluster that you started? How did you find out?
 </br>Yes. When I refresh the master web interface, it shows a completed application for CS167-Lab5.
 * (Q3) What is the Spark master printed on the standard output on IntelliJ IDEA?
-
+</br>Using Spark master 'local[*]'
 * (Q4) What is the Spark master printed on the standard output on the terminal?
-
+</br>Using Spark master 'spark://127.0.0.1:7077'
 * (Q5) For the previous command that prints the number of matching lines, list all the processed input splits.
 
 * (Q6) For the previous command that counts the lines and prints the output, how many splits were generated?
