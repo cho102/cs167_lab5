@@ -18,7 +18,8 @@
 * (Q4) What is the Spark master printed on the standard output on the terminal?
 </br>Using Spark master 'spark://127.0.0.1:7077'
 * (Q5) For the previous command that prints the number of matching lines, list all the processed input splits.
-
+</br>hdfs://localhost:9000/nasa_19950801.tsv:0+1169610
+</br>hdfs://localhost:9000/nasa_19950801.tsv:1169610+1169610
 * (Q6) For the previous command that counts the lines and prints the output, how many splits were generated?
 
 * (Q7) Compare this number to the one you got earlier.
