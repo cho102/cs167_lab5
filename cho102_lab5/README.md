@@ -21,9 +21,14 @@
 </br>hdfs://localhost:9000/nasa_19950801.tsv:0+1169610
 </br>hdfs://localhost:9000/nasa_19950801.tsv:1169610+1169610
 * (Q6) For the previous command that counts the lines and prints the output, how many splits were generated?
-
+</br>Four splits were generated:
+</br>hdfs://localhost:9000/nasa_19950801.tsv:0+1169610
+</br>hdfs://localhost:9000/nasa_19950801.tsv:1169610+1169610
+</br>hdfs://localhost:9000/nasa_19950801.tsv:0+1169610
+</br>hdfs://localhost:9000/nasa_19950801.tsv:1169610+1169610
 * (Q7) Compare this number to the one you got earlier.
-
+</br> There is double the amount of splits from earlier.
 * (Q8) Explain why we get these numbers.
-
+</br>We get this number because the task is separated into two different stages which is separated by a communication barrier.
 * (Q9) What can you do to the current code to ensure that the file is read only once?
+</br> Add the line logFile.cache() to save it to memory.
